@@ -19,7 +19,7 @@ function Header() {
             <p className=' text-[0.9rem] font-medium md:text-lg lg:text-xl text-center'>Développeur Front-end | React & Typescript</p>
           </div>
           <a className='flex items-center gap-[0.35rem] px-3 py-1 bg-black ring-1 ring-white ring-opacity-15 rounded-full hover:ring-opacity-30 transition-all duration-300 text-sm' href={resume} download="resume.pdf" rel="noopener noreferrer" target='_blank'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
               <div>Télécharger mon CV</div>
             </a>
             <a className='flex items-center gap-[0.35rem] px-3 py-1 bg-white text-black ring-1 ring-white ring-opacity-15 rounded-full hover:opacity-80 transition-all duration-300 text-sm mt-[-0.25rem] md:mt-[-0.5rem]' href='https://github.com/abdadjal' target='_blank'>

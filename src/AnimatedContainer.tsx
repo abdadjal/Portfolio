@@ -12,11 +12,9 @@ function AnimatedContainer({ children }: AnimationProps) {
     if (containerRef.current) {
       gsap.fromTo(containerRef.current,
         {
-          filter: "blur(20px)",
-          opacity: 0
+          opacity: 0,
         },
         {
-          filter: "blur(0px)",
           opacity: 1,
           duration: 1.5,
           ease: "power2.out"
