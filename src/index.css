@@ -23,3 +23,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero-wrapper {
+  background-image: url('./assets/bg.png') ;
+  }
