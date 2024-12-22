@@ -10,7 +10,7 @@ function Header() {
         <div className='flex gap-3 max-w-xl flex-col items-center md:gap-4'>
           <div className='relative'>
             <img src={pfp} className='w-20 md:w-28 lg:w-36 rounded-full'/>
-            <a href='https://github.com/abdadjal'>
+            <a href='https://www.linkedin.com/in/abdadjal'>
               <img src={linkedin} className='size-8 rounded-full absolute bottom-[-8%] right-[5%] md:size-10 lg:size-12 md:bottom-[-7%] duration-300 hover:opacity-80'/>
             </a>
           </div>
