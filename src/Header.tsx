@@ -1,6 +1,6 @@
 import resume from './assets/resume.pdf'
 import pfp from './assets/pfp.jpeg'
-import github from './assets/github.svg'
+import linkedin from './assets/linkedin.svg'
 import githubDark from './assets/github-mark.svg'
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
           <div className='relative'>
             <img src={pfp} className='w-20 md:w-28 lg:w-36 rounded-full'/>
             <a href='https://github.com/abdadjal'>
-              <img src={github} className='size-6 rounded-full absolute bottom-[-3%] right-[5%] backdrop-blur-md md:size-8 lg:size-10 md:bottom-[-1%] md:right[7%] duration-300 hover:opacity-80'/>
+              <img src={linkedin} className='size-8 rounded-full absolute bottom-[-8%] right-[5%] md:size-10 lg:size-12 md:bottom-[-7%] duration-300 hover:opacity-80'/>
             </a>
           </div>
           <div className='flex flex-col items-center gap-2 lg:gap-3'>
