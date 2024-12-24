@@ -1,7 +1,6 @@
 import image1 from "../assets/figma/Hero section - Alexy 900.webp"
 import image2 from "../assets/figma/Hero section - Ruben.webp"
-import image3 from "../assets/figma/hero.webp"
-import image9 from "../assets/figma/SCR-20240819-qytb.webp"
+import image3 from "../assets/figma/SCR-20240819-qytb.webp"
 import image5 from "../assets/figma/SCR-20240915-jhsy.webp"
 import image6 from "../assets/figma/SCR-20240915-jjjh.webp"
 import image7 from "../assets/figma/SCR-20240915-jphf.webp"
@@ -16,7 +15,7 @@ import gsap from "gsap"
 function FigmaInfinite() {
     const images = [
         image1, image2, image3, image4, image5,
-        image6, image7, image8, image9
+        image6, image7, image8
     ];
 
     const containerRef = useRef<HTMLDivElement>(null);
@@ -50,7 +49,7 @@ function FigmaInfinite() {
     }, [images]);
 
     return (
-        <div className="relative w-full align-middle overflow-hidden lg:col-span-2 h-64 lg:h-auto md:h-full" ref={containerRef}>
+        <div className="relative w-full align-middle overflow-hidden order-first md:col-span-2 lg:col-span-3 h-64 lg:order-1" ref={containerRef}>
             <div 
                 ref={sliderRef} 
                 className="flex gap-4 absolute left-0 h-full"

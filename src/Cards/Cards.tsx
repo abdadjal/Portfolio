@@ -12,9 +12,9 @@ import FigmaInfinite from '../Marquee/FigmaInfinite';
 function Cards() {
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-12 px-[5%] w-full'>
-          <Card title={"Ai Summarizer - React, Tailwind, Redux, OpenAI API"} link={"https://whoisabd-ai-summarizer.netlify.app/"} image={ai}/>
-          <Card title={"Stam Social - HTML, CSS, JS"} link={"https://stam.social"} image={social}/>
-         <Card title={"Apple Calculator - React, CSS"} link={"https://abdadjal.github.io/Javascript-Calculator/"} image={calc}/>
+          <Card title={"Ai Summarizer - React, Tailwind, Redux, OpenAI API"} link={"https://whoisabd-ai-summarizer.netlify.app/"} image={ai} first={true}/>
+          <Card title={"Stam Social - HTML, CSS, JS"} link={"https://stam.social"} image={social} first={true} />
+         <Card title={"Apple Calculator - React, CSS"} link={"https://abdadjal.github.io/Javascript-Calculator/"} image={calc} first={true}/>
          <Card title={"Random Quote Generator - React, CSS"} link={"https://abdadjal.github.io/Random-Quote-Generator/"} image={quote}/>
          <Card title={"Drum Machine - React, CSS"} link={"https://abdadjal.github.io/Drum-Machine/"} image={drum}/>
           <Card title={"Markdown Previewer - React, CSS"} link={"https://abdadjal.github.io/Markdown-Previewer/"} image={mark}/>
