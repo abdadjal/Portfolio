@@ -6,6 +6,7 @@ import drum from '../assets/drum.webp';
 import quote from '../assets/quote.webp';
 import pomo from '../assets/pomo.webp';
 import mark from '../assets/mark.webp';
+import FigmaInfinite from '../Marquee/FigmaInfinite';
 
 
 function Cards() {
@@ -18,6 +19,7 @@ function Cards() {
          <Card title={"Drum Machine - React, CSS"} link={"https://abdadjal.github.io/Drum-Machine/"} image={drum}/>
           <Card title={"Markdown Previewer - React, CSS"} link={"https://abdadjal.github.io/Markdown-Previewer/"} image={mark}/>
           <Card title={"Pomodoro - React, CSS"} link={"https://abdadjal.github.io/25-5-Clock/"} image={pomo}/>
+          <FigmaInfinite />
       </div>
     );
 }
